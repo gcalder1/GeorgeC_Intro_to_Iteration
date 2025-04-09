@@ -45,5 +45,3 @@ console.log("Game Over!");
 else {
     console.log("Are you trying to break me?")
 }
-
-//+++Exercise 4+++//
