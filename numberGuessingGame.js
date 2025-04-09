@@ -1,4 +1,4 @@
-const randomNumber = Math.floor(Math.random() * 100) + 1;
+let randomNumber = Math.floor(Math.random() * 100) + 1;
 console.log(randomNumber);
 let userGuess = null;
 const gameStart = document.querySelector(".gameStart");
@@ -21,4 +21,10 @@ while (userGuess !== randomNumber) {
 }
 
 alert("Congratulations! You guessed the correct number.");
+
+randomNumber = Math.floor(Math.random() * 100) + 1;
+console.log(randomNumber);
+userGuess = null;
+console.log(userGuess);
+
 });

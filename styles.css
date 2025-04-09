@@ -17,3 +17,17 @@ a:hover{
     transition: 0.2s ease-in-out;
     filter: invert(50%);
 }
+
+button{
+    border: 2px solid rgb(100, 109, 137);
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 16px;
+    color: #222;
+}
+
+button:hover{
+    box-shadow: inset 20px 20px 20px 20px rgba(134, 147, 230, 0.3);
+    transform: scale(1.1);
+    transition: 0.2s ease-in-out;
+}
