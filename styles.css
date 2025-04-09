@@ -1,0 +1,19 @@
+body {
+    font-family: sans-serif;
+    color: #222;
+    background-color: rgb(242, 237, 230);
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    color: #222;
+}
+
+a:hover{
+    transition: 0.2s ease-in-out;
+    filter: invert(50%);
+}
