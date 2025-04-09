@@ -19,15 +19,19 @@ a:hover{
 }
 
 button{
-    border: 2px solid rgb(100, 109, 137);
-    border-radius: 10px;
+    border: 2px solid transparent;
+    border-radius: 50px;
+    border-image-slice: 1;
+    background-image: radial-gradient(rgb(112, 83, 230), rgb(115, 112, 217), rgb(126, 91, 203));
+    filter: grayscale(50%);
     padding: 10px;
     font-size: 16px;
-    color: #222;
+    color: #ded7d7;
 }
 
 button:hover{
-    box-shadow: inset 20px 20px 20px 20px rgba(134, 147, 230, 0.3);
+    filter: brightness(1.1) grayscale(0);
     transform: scale(1.1);
     transition: 0.2s ease-in-out;
+    cursor: pointer;
 }
